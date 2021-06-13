@@ -1,0 +1,382 @@
+/* Font signature */
+@font-face {
+    font-family: signature;
+    src: url(../font/signature/TheRichJulliettaDemo-ZVKJZ.ttf);
+}
+
+@font-face {
+    font-family: autograph;
+    src: url(../font/signature/Autography-DOLnW.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* MAin div  */
+.container {
+    width: 70%;
+    margin: 0px auto;
+}
+
+/* Header section start */
+.header {
+    height: 50px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main_home {
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#main_home:hover {
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    background-color: rgba(231, 231, 231, 0.500);
+    border-radius: 10px;
+}
+
+.header ul li:hover {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    background-color: rgb(231, 231, 231, 0.500);
+    border-radius: 10px;
+}
+
+.header ul li {
+    color: #424242;
+    list-style: none;
+    padding: 10px 40px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* Signature Section start */
+#signature {
+    font-family: autograph;
+    color: #25107A;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 30px;
+    margin-right: 150px;
+    line-height: 60px;
+}
+
+#signature:hover {
+    background-color: white;
+}
+
+/* Signature Section end */
+
+/* Header section end */
+/* Content Start  */
+.content {
+    height: 500px;
+    display: flex;
+
+}
+
+/* icon start */
+.icon_con {
+    width: 20%;
+    height: 280px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.icon_con a i {
+    font-size: 20px;
+    padding: 15px 0px;
+    color: #535353;
+}
+
+.icon_con a i:hover {
+    color: #000000;
+    font-size: 30px;
+}
+
+/* icon end */
+/* text content start */
+.text_con {
+    height: 300px;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.text_hlw {
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+.intro_nam {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.sec_nam {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+}
+
+.last_nam {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(116, 101, 101);
+    font-weight: 400;
+}
+
+.resume_div button {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+.resume_div button:hover {
+    color: white;
+    font-size: 20px;
+    background-color: #000000;
+
+}
+
+/* text content end */
+/* img content */
+.img_con img {
+    margin-left: 40px;
+    width: 380px;
+    height: 380px;
+    margin-top: 80px;
+}
+
+/* img content end*/
+/* Content end  */
+
+/* About section start */
+.about_contant {
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    font-family: 'Lato', sans-serif;
+}
+
+.sub_about {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.and_sub {
+    text-align: center;
+    color: gray;
+}
+
+/* information section start */
+.information {
+    width: 100%;
+    display: flex;
+}
+
+#info {
+    width: 45%;
+}
+
+
+.info_first {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.info_sec {
+    line-height: 25px;
+    font-size: 8;
+    color: gray;
+}
+
+.info_mail a i {
+    margin-top: 10px;
+    color: black;
+}
+
+/* skills information start */
+#skills {
+    width: 40%;
+    margin-top: 45px;
+    margin-left: 15%;
+    margin-bottom: 200px;
+}
+
+/* html color start */
+.html p {
+    display: inline;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+.html_color {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.html_persent {
+    height: 3px;
+    width: 85%;
+    background-color: tomato;
+}
+
+/* html color end */
+
+/* Css color start */
+.css {
+    margin-top: 20px;
+}
+
+.css p {
+    display: inline;
+    margin-left: 312px;
+    font-weight: bold;
+}
+
+.css_color {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.css_persent {
+    height: 3px;
+    width: 75%;
+    background-color: tomato;
+}
+
+/* Css color end */
+
+/* Photoshop color start */
+.photoshop {
+    margin-top: 20px;
+}
+
+.photoshop p {
+    display: inline;
+    margin-left: 210px;
+    font-weight: bold;
+}
+
+.photoshop_color {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.photoshop_persent {
+    height: 3px;
+    width: 95%;
+    background-color: tomato;
+}
+
+/* Photoshop color end */
+
+/* Illustrator color start */
+.illustrator {
+    margin-top: 20px;
+}
+
+.illustrator p {
+    display: inline;
+    margin-left: 216px;
+    font-weight: bold;
+}
+
+.illustrator_color {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.illustrator_persent {
+    height: 3px;
+    width: 85%;
+    background-color: tomato;
+}
+
+/* Illustrator color end */
+
+/* skills information end */
+
+/* information section end */
+/* About section end */
+
+/* Footer start */
+.footer {
+    background-color: #152136;
+    color: white;
+}
+
+/* text signature start */
+.footer_signature {
+    font-size: 55px;
+    font-family: signature;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* text signature end */
+
+/* footer text start */
+.footer_text {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    color: rgb(204, 204, 204);
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.allcopy_con {
+
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #1C2940;
+    padding: 15px 0px;
+}
+
+/* footer text end */
+
+/* Footer end */
