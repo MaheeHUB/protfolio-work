@@ -24,6 +24,8 @@
 /* Header section start */
 .header {
     height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .header ul {
@@ -86,7 +88,7 @@
 .content {
     height: 500px;
     display: flex;
-
+    justify-content: center;
 }
 
 /* icon start */
